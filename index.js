@@ -8,7 +8,7 @@ let app=express()
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(cors({
-    origin:["http://localhost:5173","appointment-frontend-chi.vercel.app"],
+    origin:["http://localhost:5173","https://appointment-frontend-chi.vercel.app"],
     credentials:true,
     
 }))
